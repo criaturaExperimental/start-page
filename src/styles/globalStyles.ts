@@ -3,7 +3,7 @@ import type {} from 'styled-components/cssprop';
 
 export const GlobalStyle = createGlobalStyle`
   html,
-  body {
+  body, ul, li {
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -17,5 +17,9 @@ export const GlobalStyle = createGlobalStyle`
 
   * {
     box-sizing: border-box;
-}
+  }
+
+  li {
+    list-style: none;
+  }
 `
