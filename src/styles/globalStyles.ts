@@ -1,7 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import type {} from 'styled-components/cssprop';
-
-export const GlobalStyle = createGlobalStyle`
+import { css } from '@emotion/react'
+export const globalStyles = css`
   html,
   body, ul, li {
     padding: 0;
