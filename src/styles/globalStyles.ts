@@ -4,7 +4,7 @@ export const globalStyles = css`
   body, ul, li {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,  Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
